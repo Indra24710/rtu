@@ -9,7 +9,7 @@
 
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/bottomNavigationView"
-        android:layout_width="414dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="674dp"
         android:visibility="visible"
@@ -24,13 +24,17 @@
 
     <FrameLayout
         android:id="@+id/fragmentcontainer"
-        android:layout_width="418dp"
-        android:layout_height="647dp"
+        android:layout_width="414dp"
+        android:layout_height="630dp"
+
         app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+
     </FrameLayout>
+
 </android.support.constraint.ConstraintLayout>
 
